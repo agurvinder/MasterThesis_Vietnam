@@ -1,0 +1,224 @@
+{UTF-8}
+Adoption of alternate livelihood  = A FUNCTION OF( Perceived Success of Current Livelihood\
+		)
+	~	
+	~		|
+
+Annual Yield  = A FUNCTION OF( Multiple Crop seasons,Nutrients Available,Salinity of Water\
+		,Water Pollution)
+	~	
+	~		|
+
+land degradation  = A FUNCTION OF( Fertiliser Applied)
+	~	
+	~		|
+
+Market Saturation  = A FUNCTION OF( )
+	~	
+	~		|
+
+Input Efficiency  = A FUNCTION OF( land degradation,Technical Capacity)
+	~	
+	~		|
+
+Enxtensive Shripm and Rice Famring  = A FUNCTION OF( Perceived Success of Current Livelihood\
+		)
+	~	
+	~		|
+
+Intensive Shrimp Farming  = A FUNCTION OF( Perceived Success of Current Livelihood)
+	~	
+	~		|
+
+Investment Debt  = A FUNCTION OF( Adoption of alternate livelihood,Multiple Crop seasons\
+		,Individual Net Economic Position)
+	~	
+	~		|
+
+Individual Net Economic Position  = A FUNCTION OF( Annual Yield,Investment Debt,Market Saturation\
+		)
+	~	
+	~		|
+
+Salinity of Water  = A FUNCTION OF( )
+	~	
+	~		|
+
+Integrated Freshwater shrimp with Rice farming  = A FUNCTION OF( Perceived Success of Current Livelihood\
+		)
+	~	
+	~		|
+
+Water Pollution  = A FUNCTION OF( Multiple Crop seasons)
+	~	
+	~		|
+
+Technical Capacity  = A FUNCTION OF( Adoption of alternate livelihood,Individual Net Economic Position\
+		)
+	~	
+	~		|
+
+"Available Sediment-Bound Nutrients"  = A FUNCTION OF( Innundation Period)
+	~	
+	~		|
+
+Desired Fertiliser  = A FUNCTION OF( Economic Return to Fertilisation,"Target/Tradition Yield Deficit"\
+		)
+	~	
+	~		|
+
+Economic Return to Fertilisation  = A FUNCTION OF( Position on Production Function)
+	~	
+	~		|
+
+Fertiliser Applied  = A FUNCTION OF( Desired Fertiliser,Maximum Fertiliser Afforded)
+	~	
+	~		|
+
+Fertiliser Price  = A FUNCTION OF( Fertiliser Applied)
+	~	
+	~		|
+
+Innundation Period  = A FUNCTION OF( Multiple Crop seasons)
+	~	
+	~		|
+
+Maximum Fertiliser Afforded  = A FUNCTION OF( Fertiliser Price,Individual Net Economic Position\
+		)
+	~	
+	~		|
+
+Multiple Crop seasons  = A FUNCTION OF( Perceived Success of Current Livelihood)
+	~	
+	~		|
+
+Nutrients Available  = A FUNCTION OF( "Available Sediment-Bound Nutrients",Fertiliser Applied\
+		,Input Efficiency)
+	~	
+	~		|
+
+Perceived Success of Current Livelihood  = A FUNCTION OF( Individual Net Economic Position\
+		)
+	~	
+	~		|
+
+Position on Production Function  = A FUNCTION OF( Annual Yield)
+	~	
+	~		|
+
+"Target/Tradition Yield Deficit"  = A FUNCTION OF( Annual Yield)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,70,0
+10,1,Individual Net Economic Position,531,454,59,19,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|12||255-0-0
+10,2,Perceived Success of Current Livelihood,764,480,68,19,8,3,0,0,0,0,0,0
+10,3,Multiple Crop seasons,842,647,45,19,8,3,0,0,0,0,0,0
+10,4,Annual Yield,533,658,41,11,8,3,0,0,0,0,0,0
+10,5,Position on Production Function,329,543,65,19,8,3,0,0,0,0,0,0
+10,6,Maximum Fertiliser Afforded,172,518,61,19,8,3,0,0,0,0,0,0
+10,7,Economic Return to Fertilisation,218,704,58,17,8,131,0,0,0,0,0,0
+10,8,"Target/Tradition Yield Deficit",334,655,52,19,8,3,0,0,0,0,0,0
+10,9,Desired Fertiliser,344,811,54,11,8,3,0,0,0,0,0,0
+10,10,Fertiliser Applied,400,906,54,11,8,3,0,0,0,0,0,0
+10,11,Nutrients Available,534,843,60,11,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|12||255-0-0
+10,12,"Available Sediment-Bound Nutrients",750,857,85,19,8,3,0,0,0,0,0,0
+10,13,Innundation Period,881,762,59,11,8,3,0,0,0,0,0,0
+10,14,Technical Capacity,965,676,60,11,8,3,0,0,0,0,0,0
+10,15,Input Efficiency,706,913,49,11,8,3,0,0,0,0,0,0
+10,16,Fertiliser Price,140,838,46,11,8,3,0,0,0,0,0,0
+1,17,1,2,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(691,437)|
+1,18,2,3,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(843,589)|
+1,19,3,4,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(718,713)|
+1,20,4,1,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(532,566)|
+1,21,4,5,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(447,545)|
+1,22,1,6,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(322,404)|
+1,23,5,7,1,0,45,0,2,128,0,-1--1--1,|12||0-0-0,1|(229,623)|
+1,24,7,9,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(262,765)|
+1,25,4,8,1,0,45,0,2,128,0,-1--1--1,|12||0-0-0,1|(413,591)|
+1,26,8,9,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(326,720)|
+1,27,9,10,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(348,844)|
+1,28,10,11,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(494,906)|
+1,29,11,4,0,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(533,757)|
+1,30,1,14,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(905,497)|
+1,31,3,13,1,0,45,0,2,128,0,-1--1--1,|12||0-0-0,1|(887,715)|
+1,32,13,12,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(865,808)|
+1,33,12,11,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(612,868)|
+1,34,14,15,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(880,867)|
+1,35,15,11,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(607,900)|
+1,36,10,16,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(204,887)|
+1,37,16,6,1,0,45,0,2,128,0,-1--1--1,|12||0-0-0,1|(100,720)|
+1,38,6,10,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(194,774)|
+10,39,Adoption of alternate livelihood,731,587,59,19,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|0||128-192-0
+1,40,2,39,1,0,45,0,3,128,0,128-192-0,|12||0-0-0,1|(770,523)|
+10,41,Salinity of Water,627,805,53,11,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|12||128-64-0
+10,42,Investment Debt,591,534,52,11,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|0||128-192-0
+1,43,39,42,1,0,43,0,3,128,0,128-192-0,|12||0-0-0,1|(643,593)|
+1,44,42,1,1,0,45,0,3,128,0,128-192-0,|12||0-0-0,1|(559,503)|
+1,45,41,4,1,0,45,0,3,128,0,128-192-0,|12||0-0-0,1|(563,741)|
+1,46,3,42,1,0,43,0,3,128,0,128-192-0,|12||0-0-0,1|(661,673)|
+10,47,land degradation,546,948,52,11,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|0||128-192-0
+1,48,10,47,1,0,43,0,3,128,0,128-192-0,|12||0-0-0,1|(427,930)|
+1,49,47,15,1,0,45,0,3,128,0,128-192-0,|12||0-0-0,1|(625,945)|
+10,50,Water Pollution,708,761,49,11,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|12||255-0-0
+1,51,3,50,1,0,43,0,3,128,0,128-192-0,|12||0-0-0,1|(823,707)|
+1,52,50,4,1,0,45,0,3,128,0,128-192-0,|12||0-0-0,1|(615,746)|
+1,53,1,42,1,0,45,0,3,128,0,128-192-0,|12||0-0-0,1|(597,473)|
+10,54,Enxtensive Shripm and Rice Famring,690,338,59,19,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|12||0-128-0
+10,55,Intensive Shrimp Farming,832,340,53,19,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|12||0-128-0
+10,56,Integrated Freshwater shrimp with Rice farming,992,341,78,19,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|12||0-128-0
+1,57,2,54,1,0,0,2,3,128,0,128-192-0,|12||0-0-0,1|(744,412)|
+1,58,2,55,0,0,0,2,3,128,0,128-192-0,|12||0-0-0,1|(794,416)|
+1,59,2,56,1,0,0,2,3,128,0,128-192-0,|12||0-0-0,1|(858,401)|
+10,60,Market Saturation,320,487,57,11,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|12||128-64-0
+1,61,60,1,1,0,45,0,3,128,0,128-192-0,|12||0-0-0,1|(389,457)|
+1,62,39,14,1,0,45,0,3,128,0,128-192-0,|12||0-0-0,1|(881,556)|
+///---\\\
+:L<%^E!@
+9:Current
+15:0,0,0,0,0,0
+19:70,0
+27:0,
+34:0,
+5:Market Saturation
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+42:1
+24:0
+25:0
+26:0
